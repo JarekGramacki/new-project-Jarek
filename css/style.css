@@ -1,9 +1,38 @@
-h1 {
-  border: solid red;
-  color: aqua;
-  font-size: 55px;
-  padding: 0 20px 0 20px;
-  margin: 0 200px 0 200px;
-  text-align: left;
+/*global*/
+/*navigation*/
+.navigation {
+  display: -ms-flexbox;
+  display: flex;
+  border: solid green;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.navigation ul {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  list-style-type: none;
+  margin-left: 700px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  font-size: 20px;
+}
+
+.navigation li {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.logo a {
+  text-decoration: none;
+  margin: 15px 0;
+  position: absolute;
+  font-size: 20px;
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */
