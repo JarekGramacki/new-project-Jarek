@@ -2,6 +2,7 @@
 /*Global*/
 body {
   margin: 0;
+  background-color: red;
 }
 
 .container {
@@ -19,6 +20,8 @@ body {
   padding: 10px;
   position: absolute;
   margin: 10px 250px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
 }
 
 .navigation ul {
@@ -32,7 +35,7 @@ body {
   text-decoration: none;
   margin: 20px;
   position: relative;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 
@@ -71,6 +74,7 @@ img {
   text-align: center;
   color: white;
   font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .btn {
