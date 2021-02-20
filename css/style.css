@@ -10,10 +10,6 @@ body {
   margin: 0px auto;
 }
 
-header {
-  background-color: black;
-}
-
 .titles {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
@@ -30,7 +26,21 @@ header {
   font-style: oblique;
   color: #707070;
   margin: 20px 0 100px 0;
-  border: solid red;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+.box-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  margin: 10px 0 10px 0;
+}
+
+.box-subtitle {
+  color: #707070;
+  font-size: 18px;
 }
 
 /*navigation*/
@@ -43,7 +53,6 @@ header {
   position: absolute;
   margin: 10px 250px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
 }
 
 .navigation ul {
@@ -51,6 +60,7 @@ header {
       flex-direction: row;
   list-style-type: none;
   margin-left: 700px;
+  font-weight: bold;
 }
 
 .navigation li a {
@@ -112,5 +122,22 @@ img {
 .title {
   font-style: oblique;
   font-size: 60px;
+}
+
+/*services*/
+.services {
+  padding: 50px 0 100px 0;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 10px 10px;
+}
+
+i {
+  border: solid goldenrod;
+  padding: 20px 20px;
+  border-radius: 50%;
+  color: goldenrod;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,9 @@
 $font-logo: 'Pacifico', cursive;
 $font-text: 'Ubuntu', sans-serif;
 
+$font-color:  rgb(112, 112, 112);
+$project-color: goldenrod;
+
 /*Global*/
 body {
     margin: 0; 
@@ -15,7 +18,7 @@ body {
 }
 
 header {
-    background-color:black;
+    //background-color:black;
 }
 
 .titles {
@@ -32,10 +35,23 @@ header {
 
 .section-subtitle {
     font-style: oblique;
-    color: rgb(112, 112, 112);
+    color: $font-color;
     margin: 20px 0 100px 0;
-    border: solid red;
+}
 
+.col-sm {
+    text-align: center;
+}
+
+.box-title {
+    font-family: $font-text;
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.box-subtitle {
+    color: $font-color ;
+    font-size:18px;
 }
 
 /*navigation*/
@@ -47,13 +63,13 @@ header {
     position: absolute;
     margin: 10px 250px;
     font-family: $font-text;
-    font-weight: bold;
 }
 
 .navigation ul{
     flex-direction: row;
     list-style-type: none;
     margin-left: 700px;
+    font-weight: bold;
 }
 
 .navigation li a {
@@ -75,7 +91,8 @@ header {
     position: absolute;
     font-size: 40px;
     font-family: $font-logo;
-    color:goldenrod;
+    color: $project-color;
+    
 }
 
 /*splash*/
@@ -109,7 +126,7 @@ img {
     text-decoration: none;
     color: white; 
     font-size: 22px;
-    background-color: goldenrod;
+    background-color: $project-color;
     padding: 30px 40px; 
     border-radius: 10px;
     font-weight: bold;
@@ -118,4 +135,20 @@ img {
 .title {
     font-style: oblique;
     font-size: 60px;
+}
+
+/*services*/
+.services {
+    padding: 50px 0 100px 0;
+}
+.icon {
+    font-size: 50px;
+    padding: 10px 10px;
+}
+
+i {
+    border: solid $project-color;
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: $project-color; 
 }
