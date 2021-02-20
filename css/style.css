@@ -126,11 +126,10 @@ img {
 
 /*services*/
 .services {
-  padding: 50px 0 100px 0;
+  padding: 40px 0 100px 0;
 }
 
 .icon {
-  font-size: 50px;
   padding: 10px 10px;
 }
 
@@ -139,5 +138,7 @@ i {
   padding: 20px 20px;
   border-radius: 50%;
   color: goldenrod;
+  font-size: 50px;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
