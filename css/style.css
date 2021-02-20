@@ -2,13 +2,35 @@
 /*Global*/
 body {
   margin: 0;
-  background-color: red;
 }
 
 .container {
   max-width: 1140px;
   padding: 0px 20px;
   margin: 0px auto;
+}
+
+header {
+  background-color: black;
+}
+
+.titles {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0 0 0;
+  margin: 80px 0 0 0;
+}
+
+.section-subtitle {
+  font-style: oblique;
+  color: #707070;
+  margin: 20px 0 100px 0;
+  border: solid red;
 }
 
 /*navigation*/
@@ -56,7 +78,6 @@ body {
 
 /*splash*/
 .splash {
-  background-size: auto auto;
   height: 100vh;
 }
 
@@ -75,6 +96,7 @@ img {
   color: white;
   font-size: 40px;
   font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
 }
 
 .btn {
@@ -84,5 +106,11 @@ img {
   background-color: goldenrod;
   padding: 30px 40px;
   border-radius: 10px;
+  font-weight: bold;
+}
+
+.title {
+  font-style: oblique;
+  font-size: 60px;
 }
 /*# sourceMappingURL=style.css.map */
