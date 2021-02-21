@@ -182,11 +182,34 @@ header {
 }
 
 /*footer*/
+footer {
+    padding: 40px 0 40px 0;
+}
+.icons-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 5px;
+    
+}
 
 .icons-footer a  {
     text-decoration: none;
+    //border: solid black;
+    font-size: 30px;
+    margin: 30px 10px ;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .icons-footer li {
     list-style-type: none;
+    margin-left: 0;
+    
+}
+
+.row ul {
+
 }

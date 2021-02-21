@@ -170,11 +170,31 @@ body {
 }
 
 /*footer*/
+footer {
+  padding: 40px 0 40px 0;
+}
+
+.icons-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  padding: 0 0 0 5px;
+}
+
 .icons-footer a {
   text-decoration: none;
+  font-size: 30px;
+  margin: 30px 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .icons-footer li {
   list-style-type: none;
+  margin-left: 0;
 }
 /*# sourceMappingURL=style.css.map */
