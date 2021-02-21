@@ -64,10 +64,6 @@ header {
   z-index: 1;
 }
 
-.nawigation::after {
-  opacity: 0.3;
-}
-
 .navigation ul {
   -ms-flex-direction: row;
       flex-direction: row;
