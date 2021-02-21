@@ -10,6 +10,10 @@ body {
   margin: 0px auto;
 }
 
+header {
+  background-color: black;
+}
+
 .titles {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
@@ -34,14 +38,14 @@ body {
 
 .box-title {
   font-family: "Ubuntu", sans-serif;
-  font-size: 23px;
+  font-size: 21px;
   margin: 10px 0 10px 0;
   font-weight: bold;
 }
 
 .box-subtitle {
   color: #707070;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
@@ -57,6 +61,11 @@ body {
   position: absolute;
   margin: 10px 250px;
   font-family: "Ubuntu", sans-serif;
+  z-index: 1;
+}
+
+.nawigation::after {
+  opacity: 0.3;
 }
 
 .navigation ul {
@@ -100,6 +109,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: 0.6;
 }
 
 .splash-inner {
@@ -156,7 +166,7 @@ body {
 
 .card-body {
   margin: 0 0 50px 0;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .card {
@@ -184,9 +194,9 @@ footer {
 
 .icons-footer a {
   text-decoration: none;
-  font-size: 30px;
-  margin: 30px 10px;
-  padding: 10px 15px;
+  font-size: 24px;
+  margin: 30px 5px;
+  padding: 10px 14px;
   border-radius: 50%;
   text-align: center;
   background-color: black;
@@ -196,5 +206,11 @@ footer {
 .icons-footer li {
   list-style-type: none;
   margin-left: 0;
+}
+
+.copyright i {
+  text-align: center;
+  padding-top: 20px;
+  color: #707070;
 }
 /*# sourceMappingURL=style.css.map */
