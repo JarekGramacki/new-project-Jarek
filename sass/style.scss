@@ -149,7 +149,7 @@ header {
     padding: 10px 10px;
 }
 
-i {
+.icon i {
     border: solid $project-color;
     padding: 30px ;
     border-radius: 50%;
@@ -179,4 +179,14 @@ i {
 .card img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/*footer*/
+
+.icons-footer a  {
+    text-decoration: none;
+}
+
+.icons-footer li {
+    list-style-type: none;
 }
