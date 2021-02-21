@@ -91,9 +91,11 @@ body {
   height: 100vh;
 }
 
-img {
+.splash img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .splash-inner {
@@ -135,10 +137,35 @@ img {
 
 i {
   border: solid goldenrod;
-  padding: 20px 20px;
+  padding: 30px 30px;
   border-radius: 50%;
   color: goldenrod;
   font-size: 50px;
   position: relative;
+}
+
+/*Our portfolio*/
+.our-portfolio {
+  background-color: #f0f0f0;
+  padding: 80px 0 80px 0;
+}
+
+.card-body {
+  margin: 0 0 50px 0;
+  padding-bottom: 10px;
+}
+
+.card {
+  margin: 0 20px 0 0;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

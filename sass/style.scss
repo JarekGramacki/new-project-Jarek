@@ -102,10 +102,10 @@ header {
     
 }
 
-img {
+.splash img {
     width: 100%;
     height: 100%;
-    
+    object-fit: cover;
 }
 
 .splash-inner {
@@ -148,9 +148,42 @@ img {
 
 i {
     border: solid $project-color;
-    padding: 20px 20px;
+    padding: 30px 30px;
     border-radius: 50%;
     color: $project-color; 
     font-size: 50px;
     position: relative;
+    
+}
+
+/*Our portfolio*/
+
+.our-portfolio {
+   background-color: rgb(240, 240, 240);
+   padding: 80px 0 80px 0;
+}
+
+.card-body {
+    //border: solid rgb(60, 25, 216);
+    margin: 0 0 50px 0;
+    padding-bottom: 10px;
+}
+
+.card {
+    //border: solid green;
+    margin: 0 20px 0 0;
+    background-color: white;
+    padding-bottom: 0 ;
+    
+    
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    //border: solid yellow;
+    margin: 0;
+    
+    
 }
